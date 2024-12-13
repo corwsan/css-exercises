@@ -2,3 +2,8 @@
     background-color: #ffc0cb;
     font-family: Verdana "DejaVu sans" sans-serif;
 }
+
+#two {
+    color: hsl(240, 67%, 56%);
+    font-size: 36px;
+}
