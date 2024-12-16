@@ -35,51 +35,63 @@ body {
 
 
 
-
-
+body {
+  display: flex;
+  flex-direction: column;
+}
 
 .header {
-  display: flex;
   font-size: 32px;
   font-weight: 900;
+  padding-left: 16px;
+}
+
+.footer,
+.header {
+  display: flex;
   align-items: center;
+}
+
+.footer {
+  justify-content: center;
 }
 
 .sidebar {
   display: flex;
-  width: 300px;
-  color: white;
-  font-size: 24px;
   flex-shrink: 0;
   padding: 16px;
 }
 
-li {
+ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: white;
+  font-size: 24px;
 }
 
 .card-container {
   display: flex;
-  gap: 20px;
-  padding: 24px;
+  gap: 32px;
+  padding: 48px;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .content {
   display: flex;
-
+  flex: 1;
 }
 
 .card {
-  display: flex;
   width: 300px;
-  padding: 12px;
-  margin: 15px;
+  padding: 12px;  
 }
 
